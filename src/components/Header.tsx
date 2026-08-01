@@ -9,7 +9,7 @@ const navLinks = [
   { href: "#about", label: "من نحن" },
   { href: "#services", label: "خدماتنا" },
   { href: "#portfolio", label: "مشاريعنا" },
-  { href: "#why-us", label: "ليش MS Square" },
+  { href: "#why-us", label: "ما يميزنا" },
   { href: "#contact", label: "تواصل معنا" },
 ];
 

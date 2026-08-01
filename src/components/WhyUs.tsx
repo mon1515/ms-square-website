@@ -46,10 +46,10 @@ export default function WhyUs() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-sm font-bold uppercase tracking-wider text-accent">
-            ليش MS Square
+            ما يميزنا
           </h2>
           <p className="mt-3 text-3xl font-bold text-white sm:text-4xl">
-            ليش تختار MS Square لمشروعك
+            ما يميز إم إس سكوير لمشروعك
           </p>
         </div>
 

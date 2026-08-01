@@ -1,4 +1,5 @@
 import {
+  Lightbulb,
   Building,
   KeyRound,
   PaintRoller,
@@ -11,6 +12,7 @@ import {
 } from "lucide-react";
 
 const services = [
+  { icon: Lightbulb, title: "الاستشارات الهندسية والفنية للمشاريع" },
   { icon: Building, title: "إنشاء المباني السكنية والتجارية والصناعية" },
   { icon: KeyRound, title: "مشاريع تسليم مفتاح (Turnkey) من التخطيط للتسليم النهائي" },
   { icon: PaintRoller, title: "الأعمال المعمارية وتشطيبات الديكور الداخلي" },
