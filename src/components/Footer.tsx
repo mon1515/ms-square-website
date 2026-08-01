@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Phone, Mail, MapPin } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -30,10 +31,11 @@ export default function Footer() {
               {t("quickLinks")}
             </h3>
             <ul className="space-y-2 text-sm text-white/70">
-              <li><a href="#about" className="hover:text-white">{nav("about")}</a></li>
-              <li><a href="#services" className="hover:text-white">{nav("services")}</a></li>
-              <li><a href="#portfolio" className="hover:text-white">{nav("portfolio")}</a></li>
-              <li><a href="#why-us" className="hover:text-white">{nav("whyUs")}</a></li>
+              <li><Link href="/about" className="hover:text-white">{nav("about")}</Link></li>
+              <li><Link href="/services" className="hover:text-white">{nav("services")}</Link></li>
+              <li><Link href="/#portfolio" className="hover:text-white">{nav("portfolio")}</Link></li>
+              <li><Link href="/#why-us" className="hover:text-white">{nav("whyUs")}</Link></li>
+              <li><Link href="/contact" className="hover:text-white">{nav("contact")}</Link></li>
             </ul>
           </div>
 

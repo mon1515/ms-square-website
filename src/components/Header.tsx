@@ -14,11 +14,11 @@ export default function Header() {
   const router = useRouter();
 
   const navLinks = [
-    { href: "#about", label: t("about") },
-    { href: "#services", label: t("services") },
-    { href: "#portfolio", label: t("portfolio") },
-    { href: "#why-us", label: t("whyUs") },
-    { href: "#contact", label: t("contact") },
+    { href: "/about", label: t("about") },
+    { href: "/services", label: t("services") },
+    { href: "/#portfolio", label: t("portfolio") },
+    { href: "/#why-us", label: t("whyUs") },
+    { href: "/contact", label: t("contact") },
   ];
 
   const otherLocale = locale === "ar" ? "en" : "ar";
@@ -43,13 +43,13 @@ export default function Header() {
 
         <nav className="hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               className="text-sm font-medium text-neutral-dark transition-colors hover:text-primary"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -62,12 +62,12 @@ export default function Header() {
             <Globe size={16} />
             {otherLocale === "ar" ? "العربية" : "English"}
           </button>
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             className="inline-block rounded-md bg-accent px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-orange-600"
           >
             {t("cta")}
-          </a>
+          </Link>
         </div>
 
         <button
@@ -83,14 +83,14 @@ export default function Header() {
       {menuOpen && (
         <nav className="flex flex-col gap-1 border-t border-neutral-light bg-white px-4 py-3 lg:hidden">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               onClick={() => setMenuOpen(false)}
               className="rounded-md px-3 py-2.5 text-sm font-medium text-neutral-dark hover:bg-neutral-light hover:text-primary"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
           <button
             type="button"
@@ -103,13 +103,13 @@ export default function Header() {
             <Globe size={16} />
             {otherLocale === "ar" ? "العربية" : "English"}
           </button>
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             onClick={() => setMenuOpen(false)}
             className="mt-2 rounded-md bg-accent px-5 py-2.5 text-center text-sm font-bold text-white"
           >
             {t("cta")}
-          </a>
+          </Link>
         </nav>
       )}
     </header>

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { IBM_Plex_Sans_Arabic, Inter } from "next/font/google";
 import { routing } from "@/i18n/routing";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import "../globals.css";
 
 const arabicFont = IBM_Plex_Sans_Arabic({
@@ -49,6 +50,7 @@ export default async function LocaleLayout({
   }
 
   setRequestLocale(locale);
+  const messages = await getMessages();
   const dir = locale === "ar" ? "rtl" : "ltr";
 
   return (
@@ -62,7 +64,10 @@ export default async function LocaleLayout({
           locale === "ar" ? "font-arabic" : "font-sans"
         }`}
       >
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages}>
+          {children}
+          <WhatsAppButton />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

@@ -84,5 +84,26 @@
     "addressOffice1": "Khartoum, Obeid Khatim Street, next to Al-Sheikh Hospital",
     "addressOffice2": "Port Sudan, Al-Matar District",
     "rights": "All rights reserved."
+  },
+  "contact": {
+    "eyebrow": "Contact Us",
+    "heading": "Get in Touch With Our Team",
+    "intro": "We'd love to hear from you for any inquiry or quote request. Fill out the form and we'll get back to you soon.",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formPhone": "Phone Number",
+    "formMessage": "Your Message",
+    "formSubmit": "Send Message",
+    "formNote": "This form opens your email app with a ready-to-send message addressed to info@ms_square.net.",
+    "formError": "Please fill in your name, email, and message.",
+    "officesLabel": "Our Offices",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "mailSubject": "Website Contact Request",
+    "addressOffice1": "Khartoum, Obeid Khatim Street, next to Al-Sheikh Hospital",
+    "addressOffice2": "Port Sudan, Al-Matar District"
+  },
+  "whatsapp": {
+    "label": "Contact us on WhatsApp"
   }
 }
