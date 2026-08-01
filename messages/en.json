@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "MS Square Engineering | Contracting & Construction",
+    "description": "MS Square is a Sudanese company specialized in contracting, construction, and engineering consulting, delivering integrated engineering and construction solutions for the public and private sectors."
+  },
+  "nav": {
+    "about": "About Us",
+    "services": "Services",
+    "portfolio": "Projects",
+    "whyUs": "Why Us",
+    "contact": "Contact",
+    "cta": "Request a Quote"
+  },
+  "hero": {
+    "badge": "Contracting & Construction — Sudan",
+    "title": "Engineering Consulting & Solutions",
+    "text": "MS Square is a Sudanese company specialized in contracting, construction, and engineering consulting. We deliver your projects from full construction to finishing, rehabilitation, and maintenance, with the highest standards of quality and safety.",
+    "ctaPrimary": "Contact Us",
+    "ctaSecondary": "View Our Projects"
+  },
+  "about": {
+    "eyebrow": "About the Company",
+    "heading": "Who We Are, Our Mission & Vision",
+    "aboutTitle": "About Us",
+    "aboutText": "MS Square is a Sudanese company specialized in contracting, construction, and engineering consulting, providing integrated engineering and construction solutions for the public and private sectors — from consulting and engineering design, to full construction, finishing, rehabilitation, maintenance, and infrastructure support, in addition to supplying construction materials.",
+    "missionTitle": "Mission",
+    "missionText": "To deliver reliable construction and engineering solutions that meet the highest standards of quality, safety, and efficiency, while building long-term client relationships through professionalism, transparency, and consistent performance.",
+    "visionTitle": "Vision",
+    "visionText": "To become one of the leading contracting and engineering companies in Sudan and the region, by delivering sustainable projects, maintaining the highest execution standards, and earning client trust through excellence at every project stage."
+  },
+  "services": {
+    "eyebrow": "Our Services",
+    "heading": "Comprehensive Contracting Solutions Under One Roof",
+    "items": [
+      "Engineering & technical consulting for projects",
+      "Construction of residential, commercial, and industrial buildings",
+      "Turnkey projects, from planning to final handover",
+      "Architectural works and interior finishing",
+      "Building rehabilitation, restoration, and maintenance",
+      "Civil & structural works",
+      "Infrastructure works and site development",
+      "Supply of construction materials",
+      "Project management and engineering supervision",
+      "Custom general contracting solutions tailored to client needs"
+    ]
+  },
+  "whyUs": {
+    "eyebrow": "Why Choose Us",
+    "heading": "What Sets MS Square Apart",
+    "items": [
+      { "title": "Professional Engineering Team", "text": "Field experience combined with engineering expertise to deliver work that meets technical standards." },
+      { "title": "Precision in Every Detail", "text": "Every stage is planned, monitored, and executed for durable, reliable results." },
+      { "title": "Efficient Project Delivery", "text": "Organized planning and disciplined site management to deliver on the agreed timeline." },
+      { "title": "Comprehensive Construction Solutions", "text": "From structure and construction to finishing, maintenance, and supply — one trusted partner." },
+      { "title": "Commitment to Quality & Safety", "text": "Strict quality control procedures and a priority on safe work practices." },
+      { "title": "Client-Focused Approach", "text": "A clear understanding of client goals, practical solutions, and transparent communication." }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Our Projects",
+    "heading": "From Our Completed Projects",
+    "items": [
+      {
+        "titleEn": "Sofia Water Factory",
+        "title": "Sofia Water Factory Buildings",
+        "text": "Construction of the factory's main buildings, including reinforced concrete structural works, masonry, roofing systems, and external site works. Fully executed according to approved engineering specifications."
+      },
+      {
+        "titleEn": "Sally Soap Factory",
+        "title": "Sally Soap Factory — Buildings & Finishing",
+        "text": "Construction of the factory buildings with complete interior and exterior architectural finishing, delivering a fully functional industrial facility to high quality standards."
+      },
+      {
+        "titleEn": "Albarjoub Company",
+        "title": "Albarjoub Company — Workshop & Sales Offices",
+        "text": "Construction of workshop facilities and sales offices, including civil works, architectural finishing, utility installations, and supporting infrastructure."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "A Sudanese company specialized in contracting and construction, providing integrated engineering and construction solutions for the public and private sectors.",
+    "quickLinks": "Quick Links",
+    "contactTitle": "Contact Us",
+    "addressOffice1": "Khartoum, Obeid Khatim Street, next to Al-Sheikh Hospital",
+    "addressOffice2": "Port Sudan, Al-Matar District",
+    "rights": "All rights reserved."
+  }
+}

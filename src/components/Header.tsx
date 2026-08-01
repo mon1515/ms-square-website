@@ -2,24 +2,35 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
-import { Menu, X } from "lucide-react";
-
-const navLinks = [
-  { href: "#about", label: "من نحن" },
-  { href: "#services", label: "خدماتنا" },
-  { href: "#portfolio", label: "مشاريعنا" },
-  { href: "#why-us", label: "ما يميزنا" },
-  { href: "#contact", label: "تواصل معنا" },
-];
+import { useTranslations, useLocale } from "next-intl";
+import { Menu, X, Globe } from "lucide-react";
+import { Link, usePathname, useRouter } from "@/i18n/navigation";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const t = useTranslations("nav");
+  const locale = useLocale();
+  const pathname = usePathname();
+  const router = useRouter();
+
+  const navLinks = [
+    { href: "#about", label: t("about") },
+    { href: "#services", label: t("services") },
+    { href: "#portfolio", label: t("portfolio") },
+    { href: "#why-us", label: t("whyUs") },
+    { href: "#contact", label: t("contact") },
+  ];
+
+  const otherLocale = locale === "ar" ? "en" : "ar";
+
+  const switchLocale = () => {
+    router.replace(pathname, { locale: otherLocale });
+  };
 
   return (
     <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur border-b border-neutral-light shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        <Link href="#" className="flex items-center" onClick={() => setMenuOpen(false)}>
+        <Link href="/" className="flex items-center" onClick={() => setMenuOpen(false)}>
           <Image
             src="/assets/ms-square-logo.png"
             alt="MS Square Engineering"
@@ -42,18 +53,28 @@ export default function Header() {
           ))}
         </nav>
 
-        <a
-          href="#contact"
-          className="hidden rounded-md bg-accent px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-orange-600 lg:inline-block"
-        >
-          اطلب عرض سعر
-        </a>
+        <div className="hidden items-center gap-3 lg:flex">
+          <button
+            type="button"
+            onClick={switchLocale}
+            className="inline-flex items-center gap-1.5 rounded-md border border-neutral-light px-3 py-2 text-sm font-semibold text-neutral-dark transition-colors hover:border-primary hover:text-primary"
+          >
+            <Globe size={16} />
+            {otherLocale === "ar" ? "العربية" : "English"}
+          </button>
+          <a
+            href="#contact"
+            className="inline-block rounded-md bg-accent px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-orange-600"
+          >
+            {t("cta")}
+          </a>
+        </div>
 
         <button
           type="button"
           onClick={() => setMenuOpen((open) => !open)}
           className="inline-flex items-center justify-center rounded-md p-2 text-neutral-dark lg:hidden"
-          aria-label="فتح القائمة"
+          aria-label="Menu"
         >
           {menuOpen ? <X size={26} /> : <Menu size={26} />}
         </button>
@@ -71,12 +92,23 @@ export default function Header() {
               {link.label}
             </a>
           ))}
+          <button
+            type="button"
+            onClick={() => {
+              setMenuOpen(false);
+              switchLocale();
+            }}
+            className="mt-2 flex items-center gap-1.5 rounded-md border border-neutral-light px-3 py-2.5 text-sm font-semibold text-neutral-dark"
+          >
+            <Globe size={16} />
+            {otherLocale === "ar" ? "العربية" : "English"}
+          </button>
           <a
             href="#contact"
             onClick={() => setMenuOpen(false)}
             className="mt-2 rounded-md bg-accent px-5 py-2.5 text-center text-sm font-bold text-white"
           >
-            اطلب عرض سعر
+            {t("cta")}
           </a>
         </nav>
       )}
