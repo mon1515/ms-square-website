@@ -12,7 +12,7 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-primary">
       <motion.div
         initial={{ scale: 1.12, opacity: 0 }}
-        animate={{ scale: 1, opacity: 0.35 }}
+        animate={{ scale: 1, opacity: 0.65 }}
         transition={{ duration: 1.8, ease: "easeOut" }}
         className="absolute inset-0"
       >
@@ -25,21 +25,21 @@ export default function Hero() {
           className="object-cover"
         />
       </motion.div>
-      <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary-dark/80" />
+      <div className="absolute inset-0 bg-gradient-to-t from-primary/85 via-primary/55 to-primary-dark/45" />
 
       <div className="relative mx-auto flex max-w-7xl flex-col items-center px-4 py-20 text-center sm:px-6 sm:py-28 lg:px-8">
         <motion.div
           initial={{ opacity: 0, scale: 0.8, y: -20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="mb-6 rounded-2xl bg-white p-4 shadow-2xl shadow-black/30"
+          className="mb-6"
         >
           <Image
             src="/assets/ms-square-logo.png"
             alt="MS Square Engineering"
-            width={280}
-            height={280}
-            className="h-20 w-auto sm:h-24"
+            width={400}
+            height={400}
+            className="h-32 w-auto drop-shadow-[0_8px_24px_rgba(0,0,0,0.45)] sm:h-40"
             priority
           />
         </motion.div>

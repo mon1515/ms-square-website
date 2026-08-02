@@ -98,7 +98,7 @@ export default async function ContactPage({
                 <div className="overflow-hidden rounded-2xl border border-neutral-light">
                   <iframe
                     title="MS Square — Khartoum"
-                    src="https://www.google.com/maps?q=Khartoum,Sudan&output=embed"
+                    src="https://www.google.com/maps?q=Al-Sheikh+Hospital,+Obeid+Khatim+Street,+Khartoum,+Sudan&z=16&output=embed"
                     className="h-56 w-full"
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"

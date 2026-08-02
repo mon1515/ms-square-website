@@ -12,15 +12,13 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-3">
           <div>
-            <div className="mb-4 inline-block rounded-lg bg-white p-2">
-              <Image
-                src="/assets/ms-square-logo.png"
-                alt="MS Square Engineering"
-                width={140}
-                height={140}
-                className="h-12 w-auto"
-              />
-            </div>
+            <Image
+              src="/assets/ms-square-logo.png"
+              alt="MS Square Engineering"
+              width={160}
+              height={160}
+              className="mb-4 h-14 w-auto"
+            />
             <p className="max-w-xs text-sm leading-relaxed text-white/70">
               {t("tagline")}
             </p>
