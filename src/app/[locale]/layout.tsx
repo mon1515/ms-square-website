@@ -5,6 +5,9 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { IBM_Plex_Sans_Arabic, Inter } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import LoadingScreen from "@/components/LoadingScreen";
+import CustomCursor from "@/components/CustomCursor";
+import SmoothScroll from "@/components/SmoothScroll";
 import "../globals.css";
 
 const arabicFont = IBM_Plex_Sans_Arabic({
@@ -65,6 +68,9 @@ export default async function LocaleLayout({
         }`}
       >
         <NextIntlClientProvider messages={messages}>
+          <LoadingScreen />
+          <CustomCursor />
+          <SmoothScroll />
           {children}
           <WhatsAppButton />
         </NextIntlClientProvider>

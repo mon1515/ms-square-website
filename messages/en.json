@@ -149,5 +149,20 @@
     },
     "mailSubject": "Quote Request from Website",
     "formError": "Please fill in your name and email."
+  },
+  "blueprint": {
+    "eyebrow": "From Design to Reality",
+    "heading": "From Engineering Blueprint to Real Building"
+  },
+  "costEstimates": {
+    "eyebrow": "Approximate Cost Guide",
+    "heading": "How Much Does Your Project Cost?",
+    "note": "Approximate figures for guidance only — actual cost depends on each project's details and size. Contact us for an accurate quote.",
+    "items": [
+      { "title": "Two-Story Villa Construction" },
+      { "title": "Medium Building Rehabilitation" },
+      { "title": "Large Commercial Construction Project" },
+      { "title": "Multi-Building Center Rehabilitation" }
+    ]
   }
 }
