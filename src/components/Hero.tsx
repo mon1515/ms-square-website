@@ -1,3 +1,7 @@
+"use client";
+
+import Image from "next/image";
+import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
@@ -6,28 +10,69 @@ export default function Hero() {
 
   return (
     <section className="relative overflow-hidden bg-primary">
-      <div
-        className="absolute inset-0 opacity-20"
+      <motion.div
+        initial={{ scale: 1.12, opacity: 0 }}
+        animate={{ scale: 1, opacity: 0.2 }}
+        transition={{ duration: 1.8, ease: "easeOut" }}
+        className="absolute inset-0"
         style={{
-          backgroundImage:
-            "url('/assets/projects/project-photo-1.jpg')",
+          backgroundImage: "url('/assets/hero-bg.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary-dark/80" />
 
-      <div className="relative mx-auto flex max-w-7xl flex-col items-center px-4 py-24 text-center sm:px-6 sm:py-32 lg:px-8">
-        <span className="mb-4 inline-block rounded-full bg-accent/15 px-4 py-1.5 text-sm font-semibold text-accent">
+      <div className="relative mx-auto flex max-w-7xl flex-col items-center px-4 py-20 text-center sm:px-6 sm:py-28 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8, y: -20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="mb-6 rounded-2xl bg-white p-4 shadow-2xl shadow-black/30"
+        >
+          <Image
+            src="/assets/ms-square-logo.png"
+            alt="MS Square Engineering"
+            width={280}
+            height={280}
+            className="h-20 w-auto sm:h-24"
+            priority
+          />
+        </motion.div>
+
+        <motion.span
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.15 }}
+          className="mb-4 inline-block rounded-full bg-accent/15 px-4 py-1.5 text-sm font-semibold text-accent"
+        >
           {t("badge")}
-        </span>
-        <h1 className="max-w-3xl text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl">
+        </motion.span>
+
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.28 }}
+          className="max-w-3xl text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl"
+        >
           {t("title")}
-        </h1>
-        <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/85 sm:text-lg">
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="mt-6 max-w-2xl text-base leading-relaxed text-white/85 sm:text-lg"
+        >
           {t("text")}
-        </p>
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.52 }}
+          className="mt-10 flex flex-wrap items-center justify-center gap-4"
+        >
           <Link
             href="/contact"
             className="rounded-md bg-accent px-8 py-3.5 text-base font-bold text-white shadow-lg shadow-accent/30 transition-colors hover:bg-orange-600"
@@ -40,7 +85,7 @@ export default function Hero() {
           >
             {t("ctaSecondary")}
           </Link>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

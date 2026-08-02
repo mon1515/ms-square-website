@@ -86,24 +86,68 @@
     "rights": "All rights reserved."
   },
   "contact": {
-    "eyebrow": "Contact Us",
-    "heading": "Get in Touch With Our Team",
-    "intro": "We'd love to hear from you for any inquiry or quote request. Fill out the form and we'll get back to you soon.",
-    "formName": "Name",
-    "formEmail": "Email",
-    "formPhone": "Phone Number",
-    "formMessage": "Your Message",
-    "formSubmit": "Send Message",
-    "formNote": "This form opens your email app with a ready-to-send message addressed to info@ms_square.net.",
-    "formError": "Please fill in your name, email, and message.",
     "officesLabel": "Our Offices",
     "phoneLabel": "Phone",
     "emailLabel": "Email",
-    "mailSubject": "Website Contact Request",
     "addressOffice1": "Khartoum, Obeid Khatim Street, next to Al-Sheikh Hospital",
     "addressOffice2": "Port Sudan, Al-Matar District"
   },
   "whatsapp": {
     "label": "Contact us on WhatsApp"
+  },
+  "quote": {
+    "eyebrow": "Request a Quote",
+    "heading": "Request a Quote for Your Project",
+    "intro": "A few quick steps so we can understand your project and get back to you with a fitting quote.",
+    "stepLabel": "Step {current} of {total}",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Send Request",
+    "submitting": "Preparing...",
+    "projectType": {
+      "title": "Project Type",
+      "options": ["Residential", "Commercial", "Industrial", "Infrastructure", "Other"]
+    },
+    "location": {
+      "title": "Project Location",
+      "placeholder": "e.g. Khartoum, Port Sudan..."
+    },
+    "area": {
+      "title": "Approximate Area",
+      "placeholder": "Area in square meters"
+    },
+    "hasPlan": {
+      "title": "Do you already have an engineering plan?",
+      "yes": "Yes, a plan exists",
+      "no": "No, not yet"
+    },
+    "files": {
+      "title": "Upload Files (optional)",
+      "hint": "Upload any plans or reference images for the project",
+      "button": "Choose Files",
+      "selected": "{count} file(s) selected",
+      "note": "Files aren't attached automatically — when you hit send, your email app will open and you can attach them there manually."
+    },
+    "budget": {
+      "title": "Approximate Budget",
+      "placeholder": "e.g. $50,000 - $100,000"
+    },
+    "contactStep": {
+      "title": "Contact Details",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number"
+    },
+    "review": {
+      "title": "Review Your Request",
+      "projectType": "Project Type",
+      "location": "Location",
+      "area": "Area",
+      "hasPlan": "Has Plan",
+      "budget": "Budget",
+      "files": "Files"
+    },
+    "mailSubject": "Quote Request from Website",
+    "formError": "Please fill in your name and email."
   }
 }

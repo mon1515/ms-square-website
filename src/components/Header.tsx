@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import { useTranslations, useLocale } from "next-intl";
 import { Menu, X, Globe } from "lucide-react";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
@@ -31,14 +32,21 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur border-b border-neutral-light shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center" onClick={() => setMenuOpen(false)}>
-          <Image
-            src="/assets/ms-square-logo.png"
-            alt="MS Square Engineering"
-            width={180}
-            height={180}
-            className="h-14 w-auto sm:h-16"
-            priority
-          />
+          <motion.div
+            initial={{ opacity: 0, scale: 0.85 }}
+            animate={{ opacity: 1, scale: 1 }}
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+          >
+            <Image
+              src="/assets/ms-square-logo.png"
+              alt="MS Square Engineering"
+              width={180}
+              height={180}
+              className="h-14 w-auto sm:h-16"
+              priority
+            />
+          </motion.div>
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">

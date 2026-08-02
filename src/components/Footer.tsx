@@ -53,11 +53,11 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <Mail size={16} className="shrink-0 text-accent" />
                 <a
-                  href="mailto:info@ms_square.net"
+                  href="mailto:info@mssquare-eng.com"
                   className="hover:text-white"
                   dir="ltr"
                 >
-                  info@ms_square.net
+                  info@mssquare-eng.com
                 </a>
               </li>
               <li className="flex items-start gap-2">

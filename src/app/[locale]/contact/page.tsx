@@ -2,7 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Phone, Mail, MapPin } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ContactForm from "@/components/ContactForm";
+import QuoteWizard from "@/components/QuoteWizard";
 
 export async function generateMetadata({
   params,
@@ -10,7 +10,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "contact" });
+  const t = await getTranslations({ locale, namespace: "quote" });
   return { title: t("heading") };
 }
 
@@ -21,7 +21,8 @@ export default async function ContactPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: "contact" });
+  const t = await getTranslations({ locale, namespace: "quote" });
+  const c = await getTranslations({ locale, namespace: "contact" });
 
   return (
     <>
@@ -43,7 +44,7 @@ export default async function ContactPage({
 
             <div className="mt-16 grid gap-10 lg:grid-cols-5">
               <div className="rounded-2xl border border-neutral-light bg-neutral-light/40 p-6 sm:p-8 lg:col-span-3">
-                <ContactForm />
+                <QuoteWizard />
               </div>
 
               <div className="space-y-6 lg:col-span-2">
@@ -55,7 +56,7 @@ export default async function ContactPage({
                       </span>
                       <div>
                         <p className="text-xs font-semibold text-neutral-dark/50">
-                          {t("phoneLabel")}
+                          {c("phoneLabel")}
                         </p>
                         <a href="tel:+249912353291" className="font-semibold text-neutral-dark" dir="ltr">
                           +249 912 353 291
@@ -68,10 +69,10 @@ export default async function ContactPage({
                       </span>
                       <div>
                         <p className="text-xs font-semibold text-neutral-dark/50">
-                          {t("emailLabel")}
+                          {c("emailLabel")}
                         </p>
-                        <a href="mailto:info@ms_square.net" className="font-semibold text-neutral-dark" dir="ltr">
-                          info@ms_square.net
+                        <a href="mailto:info@mssquare-eng.com" className="font-semibold text-neutral-dark" dir="ltr">
+                          info@mssquare-eng.com
                         </a>
                       </div>
                     </li>
@@ -80,16 +81,16 @@ export default async function ContactPage({
 
                 <div className="rounded-2xl border border-neutral-light p-6">
                   <p className="mb-4 text-xs font-semibold uppercase tracking-wide text-neutral-dark/50">
-                    {t("officesLabel")}
+                    {c("officesLabel")}
                   </p>
                   <ul className="space-y-4 text-sm">
                     <li className="flex items-start gap-3">
                       <MapPin size={18} className="mt-0.5 shrink-0 text-accent" />
-                      <span>{t("addressOffice1")}</span>
+                      <span>{c("addressOffice1")}</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <MapPin size={18} className="mt-0.5 shrink-0 text-accent" />
-                      <span>{t("addressOffice2")}</span>
+                      <span>{c("addressOffice2")}</span>
                     </li>
                   </ul>
                 </div>
