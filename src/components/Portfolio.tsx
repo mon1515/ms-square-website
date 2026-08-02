@@ -5,9 +5,9 @@ import Reveal from "@/components/Reveal";
 type Project = { titleEn: string; title: string; text: string };
 
 const images = [
-  "/assets/projects/project-photo-1.jpg",
-  "/assets/projects/project-photo-4.jpg",
-  "/assets/projects/project-photo-6.jpg",
+  "/assets/projects/sofia-water-factory.jpg",
+  "/assets/projects/sally-soap-factory.jpg",
+  "/assets/projects/albarjoub-company.jpg",
 ];
 
 export default function Portfolio() {

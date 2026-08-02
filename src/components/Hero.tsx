@@ -12,15 +12,19 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-primary">
       <motion.div
         initial={{ scale: 1.12, opacity: 0 }}
-        animate={{ scale: 1, opacity: 0.2 }}
+        animate={{ scale: 1, opacity: 0.35 }}
         transition={{ duration: 1.8, ease: "easeOut" }}
         className="absolute inset-0"
-        style={{
-          backgroundImage: "url('/assets/hero-bg.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      />
+      >
+        <Image
+          src="/assets/hero-bg.png"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+      </motion.div>
       <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/90 to-primary-dark/80" />
 
       <div className="relative mx-auto flex max-w-7xl flex-col items-center px-4 py-20 text-center sm:px-6 sm:py-28 lg:px-8">
