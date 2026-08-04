@@ -151,8 +151,8 @@
     "formError": "Please fill in your name and email."
   },
   "blueprint": {
-    "eyebrow": "From Design to Reality",
-    "heading": "From Engineering Blueprint to Real Building"
+    "eyebrow": "Our Engineering Vision",
+    "heading": "We Build Dreams"
   },
   "costEstimates": {
     "eyebrow": "Approximate Cost Guide",
@@ -164,5 +164,65 @@
       { "title": "Large Commercial Construction Project" },
       { "title": "Multi-Building Center Rehabilitation" }
     ]
+  },
+  "assessmentReport": {
+    "eyebrow": "Engineering Assessment Reports",
+    "heading": "Sample Assessment & Cost Model: Health Center Rehabilitation",
+    "intro": "An illustrative example of our methodology for assessing and pricing rehabilitation projects, grounded in real work MS Square has completed and current Sudan market rates.",
+    "projectLabel": "Project Type",
+    "projectType": "Government Health Center Rehabilitation",
+    "facilityLabel": "Facility Components",
+    "facilities": ["Reception", "3 Doctor Consultation Rooms", "Staff Break Room", "Laboratory", "Pharmacy"],
+    "step1Title": "Step One: Comprehensive Structural Assessment",
+    "step1Text": "Before any work begins, we conduct a full, comprehensive assessment of the building — inspecting all visible and potential damage, and confirming with certainty whether any structural issues exist before starting rehabilitation work.",
+    "step1Price": "1,000 – 2,000",
+    "step1PriceNote": "Depending on the size of the engineering team required",
+    "step1Duration": "2 to 5 days",
+    "breakdownTitle": "Rehabilitation Cost Breakdown",
+    "items": [
+      {
+        "title": "Electrical Works",
+        "price": "9,000 – 13,000",
+        "text": "Full inspection and renewal of electrical wiring, energy-efficient LED lighting throughout, ceiling and exhaust fans, air conditioning for reception, consultation rooms and the lab, and a new main distribution panel meeting safety standards."
+      },
+      {
+        "title": "Plumbing Works",
+        "price": "5,500 – 8,000",
+        "text": "Renewal of water supply and drainage lines, new sanitary fittings for the restroom and lab, and proper roof rainwater drainage."
+      },
+      {
+        "title": "Crack Treatment",
+        "price": "3,000 – 5,000",
+        "text": "Careful inspection of all visible surface cracks, treatment and reinforcement with approved materials, to definitively confirm there is no structural weakness in the building."
+      },
+      {
+        "title": "Painting & Finishing Coats",
+        "price": "4,000 – 6,000",
+        "text": "Full interior and exterior painting with moisture- and heat-resistant materials, applied after every weak point has been repaired — because paint doesn't fix concrete, it's the final stage after real repair."
+      },
+      {
+        "title": "General Finishes",
+        "price": "11,000 – 16,000",
+        "text": "Roof thermal insulation, new floor ceramic tiling, and maintenance or replacement of damaged doors, windows and glass, delivering a fully functional facility to a high quality standard."
+      }
+    ],
+    "subtotalLabel": "Core Rehabilitation Subtotal",
+    "addonsTitle": "Optional Add-ons",
+    "addons": [
+      {
+        "title": "Basic Medical Equipment",
+        "price": "25,000 – 40,000",
+        "text": "Examination beds, basic lab equipment, pharmacy medicine refrigerators, and medical furniture for reception and consultation rooms — optional, outside the core contracting scope."
+      },
+      {
+        "title": "15kW Solar Power System",
+        "price": "18,000 – 24,000",
+        "text": "Solar panels, batteries and a 15kW inverter to cover essential loads and reduce grid dependency, ensuring uninterrupted medical service."
+      }
+    ],
+    "totalLabel": "Full Scenario — With All Optional Add-ons",
+    "totalValue": "Capped at $140,000",
+    "totalNote": "Includes a 10% project management and contingency reserve. Final cost is confirmed after the structural assessment and site survey.",
+    "sourceNote": "Figures are based on MS Square's internal engineering studies and actual work completed in Khartoum during July 2026, in line with local market prices for the same period."
   }
 }

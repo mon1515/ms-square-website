@@ -39,7 +39,7 @@ export default function Header() {
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
             <Image
-              src="/assets/ms-square-logo.png"
+              src="/assets/ms-square-logo-white.png"
               alt="MS Square Engineering"
               width={180}
               height={180}
