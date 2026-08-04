@@ -33,6 +33,7 @@ export default function Footer() {
               <li><Link href="/services" className="hover:text-white">{nav("services")}</Link></li>
               <li><Link href="/#portfolio" className="hover:text-white">{nav("portfolio")}</Link></li>
               <li><Link href="/#why-us" className="hover:text-white">{nav("whyUs")}</Link></li>
+              <li><Link href="/reports" className="hover:text-white">{nav("reports")}</Link></li>
               <li><Link href="/contact" className="hover:text-white">{nav("contact")}</Link></li>
             </ul>
           </div>

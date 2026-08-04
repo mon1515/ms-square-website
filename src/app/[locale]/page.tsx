@@ -5,7 +5,6 @@ import BlueprintBuilding from "@/components/BlueprintBuilding";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import CostEstimates from "@/components/CostEstimates";
-import AssessmentReport from "@/components/AssessmentReport";
 import WhyUs from "@/components/WhyUs";
 import Portfolio from "@/components/Portfolio";
 import Footer from "@/components/Footer";
@@ -27,7 +26,6 @@ export default async function Home({
         <About />
         <Services />
         <CostEstimates />
-        <AssessmentReport />
         <WhyUs />
         <Portfolio />
       </main>

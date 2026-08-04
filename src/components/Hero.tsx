@@ -58,14 +58,14 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.8, y: -20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="mb-6"
+          className="mb-6 rounded-2xl bg-white p-4 shadow-2xl shadow-black/30"
         >
           <Image
-            src="/assets/ms-square-logo.png"
+            src="/assets/ms-square-logo-white.png"
             alt="MS Square Engineering"
-            width={400}
-            height={400}
-            className="h-32 w-auto drop-shadow-[0_8px_24px_rgba(0,0,0,0.45)] sm:h-40"
+            width={280}
+            height={280}
+            className="h-20 w-auto sm:h-24"
             priority
           />
         </motion.div>

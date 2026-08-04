@@ -19,6 +19,7 @@ export default function Header() {
     { href: "/services", label: t("services") },
     { href: "/#portfolio", label: t("portfolio") },
     { href: "/#why-us", label: t("whyUs") },
+    { href: "/reports", label: t("reports") },
     { href: "/contact", label: t("contact") },
   ];
 
