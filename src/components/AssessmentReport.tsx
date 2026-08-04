@@ -41,7 +41,7 @@ export default function AssessmentReport() {
           delay={0.1}
           className="mt-10 rounded-2xl border border-neutral-light bg-neutral-light/50 p-6 sm:p-8"
         >
-          <span className="rounded-full bg-primary px-4 py-1.5 text-sm font-bold text-white">
+          <span className="inline-block rounded-lg bg-primary px-4 py-2 text-sm font-bold leading-snug text-white">
             {t("projectType")}
           </span>
           <p className="mb-2 mt-4 text-xs font-semibold uppercase tracking-wide text-neutral-dark/50">
