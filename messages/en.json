@@ -166,8 +166,17 @@
       { "title": "Multi-Building Center Rehabilitation" }
     ]
   },
+  "reportsIndex": {
+    "eyebrow": "Insights & Research",
+    "heading": "Reports",
+    "intro": "Practical, numbers-first reports on the cost of construction and rehabilitation work in Sudan — for engineers, investors, and development partners.",
+    "readMore": "Read report"
+  },
   "assessmentReport": {
     "eyebrow": "Engineering Assessment Reports",
+    "navLabel": "Health Center Rehabilitation",
+    "metaTitle": "Sample Assessment & Cost Model: Health Center Rehabilitation | MS Square Engineering",
+    "metaDescription": "A real-world example of how MS Square assesses and prices health center rehabilitation projects in Sudan, with a full line-item cost breakdown by trade.",
     "heading": "Sample Assessment & Cost Model: Health Center Rehabilitation",
     "intro": "An illustrative example of our methodology for assessing and pricing rehabilitation projects, grounded in real work MS Square has completed and current Sudan market rates.",
     "projectLabel": "Project Type",
@@ -225,5 +234,46 @@
     "totalValue": "Capped at $140,000",
     "totalNote": "Includes a 10% project management and contingency reserve. Final cost is confirmed after the structural assessment and site survey.",
     "sourceNote": "Figures are based on MS Square's internal engineering studies and actual work completed in Khartoum during July 2026, in line with local market prices for the same period."
+  },
+  "sudanSchoolsReport": {
+    "eyebrow": "Research & Cost Advisory",
+    "navLabel": "Sudan School Rehabilitation Cost",
+    "metaTitle": "The Cost of Rehabilitating Government Schools in Sudan | MS Square Engineering",
+    "metaDescription": "A data-driven look at what it really costs to rehabilitate a Sudanese government school in 2026 — from $15,000 light repairs to $900,000 full reconstructions, based on real Khartoum market prices.",
+    "heading": "The Cost of Rehabilitating Government Schools in Sudan",
+    "subheading": "A Practical Reading of the Contracting Market",
+    "audienceLabel": "Prepared for",
+    "audienceText": "Investors, Donors & Development Funds",
+    "excerpt1": "There is no single \"damaged Sudanese school.\" Real cost per school ranges from USD 15,000 for a light repair of a small school to USD 900,000 for the full reconstruction of a large educational complex — and that wide spread is exactly what produces the \"astronomical\" figures seen in the media, figures that collapse into rational numbers once each school is classified by its actual condition.",
+    "excerpt2": "This report is built on real 2026 market prices in Khartoum and on documented, executed projects — not press statements. For any organisation or investor planning to fund school rehabilitation in Sudan, it lays out a practical cost model: a four-tier damage classification, current material and per-square-metre prices, and the exchange-rate discipline needed to keep any dollar-denominated contract accurate.",
+    "stats": [
+      { "label": "Light repair, small school", "value": "$15,000 – $40,000" },
+      { "label": "Comprehensive rehab, medium school", "value": "$150,000 – $350,000" },
+      { "label": "Full reconstruction, large complex", "value": "$400,000 – $900,000" },
+      { "label": "Exchange-rate gap, official vs. parallel", "value": "3,000 vs 4,600+ SDG/USD" },
+      { "label": "Children out of education in Sudan", "value": "8,000,000+" }
+    ],
+    "figureTitle": "Estimated Rehabilitation Cost by School Category (USD)",
+    "figureNote": "Figure 6 — MS Square practical cost bands, based on 2026 Khartoum market prices and documented project data.",
+    "figureBands": [
+      { "label": "Small school — light repair", "min": 15000, "max": 40000, "minLabel": "$15K", "maxLabel": "$40K" },
+      { "label": "Small school — medium repair", "min": 50000, "max": 90000, "minLabel": "$50K", "maxLabel": "$90K" },
+      { "label": "Medium school — comprehensive rehab", "min": 150000, "max": 350000, "minLabel": "$150K", "maxLabel": "$350K" },
+      { "label": "Large complex — partial reconstruction", "min": 400000, "max": 900000, "minLabel": "$400K", "maxLabel": "$900K" },
+      { "label": "Totally destroyed — full rebuild", "min": 300000, "max": 600000, "minLabel": "$300K", "maxLabel": "$600K" }
+    ],
+    "keyTakeawaysTitle": "Why the Numbers Vary So Much",
+    "keyTakeaways": [
+      "Damage is not uniform: from light surface damage to full destruction by direct shelling — four distinct condition tiers drive four very different budgets.",
+      "The gap between the official and parallel exchange rate can radically change a contract's dollar value depending on which rate is used.",
+      "Core material prices — cement and steel especially — jumped sharply within just a few months in 2026 due to transport disruption and FX volatility.",
+      "Around 80% of existing school buildings were built by community initiative without engineering supervision, so their baseline condition varies widely."
+    ],
+    "ctaTitle": "Get the Full Report",
+    "ctaText": "Complete material and cost-per-square-metre tables, documented project benchmarks, market sources, and our field-survey methodology — in the full report.",
+    "ctaButton": "Download Full Report (PDF)",
+    "ctaNote": "PDF · English · Research & Cost Advisory Division",
+    "sourceNote": "Based on Khartoum construction-market prices (mid-2026), UNICEF and UNESCO/GPE reporting, and documented rehabilitation projects in Sudan and South Sudan. Full source list in the report.",
+    "pdfUrl": "/reports/sudan-school-rehabilitation-cost-en.pdf"
   }
 }

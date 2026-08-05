@@ -16,7 +16,7 @@ const addonIcons = [Stethoscope, Sun];
 
 type Item = { title: string; price: string; text: string };
 
-export default function AssessmentReport() {
+export default function HealthCenterReport() {
   const t = useTranslations("assessmentReport");
   const items = t.raw("items") as Item[];
   const addons = t.raw("addons") as Item[];
