@@ -1,7 +1,8 @@
 import type { ComponentType } from "react";
-import { Stethoscope, School } from "lucide-react";
+import { Stethoscope, School, Zap } from "lucide-react";
 import HealthCenterReport from "@/components/reports/HealthCenterReport";
 import SudanSchoolsReport from "@/components/reports/SudanSchoolsReport";
+import ElectricalWiringReport from "@/components/reports/ElectricalWiringReport";
 
 export type ReportDefinition = {
   slug: string;
@@ -22,6 +23,12 @@ export const reports: ReportDefinition[] = [
     namespace: "sudanSchoolsReport",
     icon: School,
     Component: SudanSchoolsReport,
+  },
+  {
+    slug: "electrical-wiring-school-rehabilitation",
+    namespace: "electricalWiringReport",
+    icon: Zap,
+    Component: ElectricalWiringReport,
   },
 ];
 

@@ -275,5 +275,286 @@
     "ctaNote": "PDF · English · Research & Cost Advisory Division",
     "sourceNote": "Based on Khartoum construction-market prices (mid-2026), UNICEF and UNESCO/GPE reporting, and documented rehabilitation projects in Sudan and South Sudan. Full source list in the report.",
     "pdfUrl": "/reports/sudan-school-rehabilitation-cost-en.pdf"
+  },
+  "electricalWiringReport": {
+    "eyebrow": "Engineering Insights",
+    "navLabel": "Electrical Wiring in Rehabilitation",
+    "metaTitle": "Why Electrical Wiring Should Be a Priority in School Rehabilitation | MS Square Engineering",
+    "metaDescription": "Why rehabilitating a Sudanese primary school should upgrade the electrical installation, not just repaint it — circuit coordination, protection, earthing, fire-rated cable and IEC standards explained.",
+    "heading": "Why Electrical Wiring Should Be a Priority in the Rehabilitation of Sudanese Primary Schools",
+    "intro": "Rehabilitation is an opportunity to replace unsafe, inefficient and outdated systems with solutions that provide a safer, more reliable and more sustainable environment for students and staff — and this is particularly important when it comes to electrical installations.",
+
+    "s1Title": "Rehabilitation Should Not Mean Rebuilding the Same Problems",
+    "s1Text1": "When a school is rehabilitated, the objective should not simply be to restore the building to the condition it was in before deterioration.",
+    "s1Text2": "In many existing schools, electrical systems have evolved through years of modifications, extensions and repairs. Circuits may have been extended without proper load assessment, cables may have deteriorated, protective devices may no longer correspond to the actual loads, and electrical connections may have been exposed to moisture, mechanical damage or excessive heating.",
+    "s1Text3": "Simply repainting walls, repairing ceilings and replacing doors while leaving the original electrical installation substantially unchanged may therefore restore the appearance of a school without addressing one of its most important safety systems.",
+    "s1CalloutTitle": "Improve it, don't just preserve it",
+    "s1CalloutText": "A rehabilitation project should improve the electrical installation, not merely preserve it.",
+
+    "s2Title": "Why Electrical Systems Deserve Special Attention in Schools",
+    "s2Text1": "Schools are not ordinary buildings. They contain large numbers of children, many of whom have limited awareness of electrical hazards. Classrooms, offices, laboratories, workshops, stores and sanitary facilities may all have different electrical requirements.",
+    "s2Text2": "At the same time, school buildings are often occupied for long periods and may contain combustible materials such as books, paper, furniture and teaching materials.",
+    "s2Text3": "An electrical fault that might be manageable in a small residential building can therefore have much more serious consequences in a school.",
+    "risksLabel": "The principal risks include:",
+    "risks": [
+      "Overloaded circuits.",
+      "Undersized conductors.",
+      "Poor-quality or loose connections.",
+      "Deteriorated insulation.",
+      "Improper joints.",
+      "Inadequate circuit protection.",
+      "Poor earthing.",
+      "Moisture entering electrical accessories.",
+      "Unprotected cables exposed to mechanical damage.",
+      "Incorrect replacement of breakers.",
+      "Excessive use of extension cables and multiple adaptors."
+    ],
+    "s2Closing": "The objective of rehabilitation should be to reduce these risks systematically.",
+
+    "s3Title": "The Cable Is Not the Only Issue",
+    "s3Text1": "A common misconception in rehabilitation projects is that installing a “better cable” automatically makes the electrical installation safer. It does not.",
+    "s3Text2": "The safety of an electrical circuit depends on the coordination between the conductor, the load, the installation method and the protective device.",
+    "s3Text3": "IEC 60364-4-43 specifically addresses protection against overcurrent and the coordination between conductors and protective devices. In practical terms, the circuit breaker must protect the conductor under the actual installation conditions.",
+    "designFactorsLabel": "This means that selecting a cable should never be based only on its nominal cross-sectional area. The design should consider:",
+    "designFactors": [
+      "Design current.",
+      "Current-carrying capacity of the conductor.",
+      "Installation method.",
+      "Ambient temperature.",
+      "Grouping of cables.",
+      "Voltage drop.",
+      "Prospective short-circuit current.",
+      "Protective-device characteristics.",
+      "Conductor material.",
+      "Insulation temperature rating."
+    ],
+    "s3WrongQuestion": "“Which cable is cheaper?”",
+    "s3RightQuestion": "“Which cable and protection system are appropriate for the intended load and installation conditions?”",
+    "coordinationLabels": ["Design current & load", "Conductor size", "Installation method", "Protective device"],
+    "coordinationResult": "Coordinated & protected circuit",
+
+    "s4Title": "What Should Change During Rehabilitation?",
+    "s4Intro": "For an existing primary school, the electrical system should be assessed circuit by circuit before any replacement decision is made. The assessment should normally include:",
+    "s4dbTitle": "1. Distribution Board",
+    "s4dbIntro": "The distribution board should be inspected for:",
+    "dbChecklist": [
+      "Physical condition.",
+      "Correct circuit identification.",
+      "Appropriate circuit separation.",
+      "Breaker ratings.",
+      "Signs of overheating.",
+      "Loose terminals.",
+      "Neutral and earth arrangements.",
+      "Earthing continuity.",
+      "Protection against accidental contact."
+    ],
+    "s4dbNote": "Where appropriate, old or inadequate distribution boards should be replaced rather than repeatedly repaired.",
+    "s4lightTitle": "2. Lighting Circuits",
+    "s4lightText1": "Lighting circuits should be separated from socket and high-load circuits.",
+    "s4lightText2": "For typical lighting circuits, 1.5 mm² copper conductors may be appropriate in many installations, but the final conductor size must be determined from the design current, installation method, voltage drop and protective device. The important principle is that the cable size should be calculated rather than selected simply because it is commonly used.",
+    "s4socketTitle": "3. Socket-Outlets",
+    "s4socketText1": "Socket circuits generally require more capacity than lighting circuits. A 2.5 mm² copper conductor is commonly used for socket final circuits, subject to the actual design and installation conditions.",
+    "s4socketText2": "In a school, socket circuits should receive particular attention because users may connect fans, computers, printers, chargers and other appliances.",
+    "s4socketText3": "Where required, socket circuits should be protected by residual-current protection. This can significantly reduce the risk of electric shock from faults involving exposed conductive parts.",
+    "s4socketText4": "IEC 60364-4-41 establishes requirements for protection against electric shock in low-voltage installations.",
+
+    "s5Title": "Air Conditioners and High-Load Equipment Require Separate Design",
+    "s5Text1": "Another common rehabilitation mistake is to treat every electrical point as if it has the same load. It does not.",
+    "s5Text2": "An air conditioner, water pump, photocopier or workshop appliance can impose a substantially higher load than a lighting point.",
+    "s5Text3": "Dedicated circuits should therefore be provided where required, with conductor sizes and protective devices selected according to the actual equipment rating and operating conditions.",
+    "s5Text4": "For example, a 4 mm² or 6 mm² conductor might be appropriate for a particular air-conditioning circuit, but it would be technically incorrect to specify one size universally without knowing the equipment capacity, supply arrangement, cable length, installation method and voltage-drop requirements. That distinction is important in professional rehabilitation work.",
+
+    "s6Title": "Cable Type and Fire Safety",
+    "s6Text1": "Cable selection also matters from a fire-safety perspective. Modern cable standards distinguish between normal electrical performance and behaviour under fire.",
+    "s6Text2": "IEC 60332 addresses flame propagation tests, while IEC 60331 concerns circuit integrity under fire conditions. These are not interchangeable requirements.",
+    "s6Text3": "A flame-retardant cable is intended to limit flame propagation. A fire-resistant cable, by contrast, is designed to maintain circuit integrity for a specified period under fire conditions. This distinction matters.",
+    "s6Text4": "A school does not necessarily require fire-resistant cables for every ordinary lighting and socket circuit. Fire-resistant cables are generally associated with circuits that must continue operating during a fire, such as designated emergency systems.",
+    "fireCards": [
+      { "title": "Flame-Retardant", "text": "Limits how far flame propagates along the cable run — the baseline expectation for ordinary lighting and socket circuits." },
+      { "title": "Fire-Resistant", "text": "Maintains circuit integrity for a specified period under fire — reserved for circuits that must keep operating during a fire, such as emergency systems." },
+      { "title": "Low-Smoke Zero-Halogen (LSZH)", "text": "Reduces smoke and corrosive gases, improving evacuation conditions in occupied public buildings such as schools." }
+    ],
+    "s6Text5": "For occupied public buildings such as schools, low-smoke and low-halogen cable technologies can provide additional safety benefits where specified by the project design and applicable standards — reducing smoke and corrosive gases can improve conditions during evacuation.",
+    "s6Text6": "The specification should therefore clearly state the required cable performance instead of simply saying “good quality cable.”",
+
+    "s7Title": "Copper Conductors: A Rehabilitation Opportunity",
+    "s7Text1": "Where the existing installation contains deteriorated, undersized or unsuitable conductors, replacing them with properly specified copper conductors can provide a significant improvement in reliability.",
+    "s7Text2": "The conductor cross-sectional area should be selected through electrical design rather than by visual comparison with the existing cable. For building installations, conductor specifications and resistance characteristics are addressed by IEC 60228, while cable construction requirements are covered by relevant cable standards such as IEC 60502 for applicable cable types.",
+    "copperSpecLabel": "The specification should also require:",
+    "copperSpec": [
+      "Genuine copper conductors.",
+      "Correct cross-sectional area.",
+      "Appropriate insulation.",
+      "Traceable manufacturer information.",
+      "Applicable IEC/BS certification.",
+      "Proper installation accessories."
+    ],
+    "s7Closing": "The cheapest cable is rarely the cheapest solution over the life of a building.",
+
+    "s8Title": "Connections Are Often More Important Than the Cable",
+    "s8Text1": "A high-quality cable can still become a fire hazard if it is badly connected.",
+    "s8Text2": "Poor terminals, loose screws, inadequate crimping, damaged insulation and uncontrolled cable joints can create localized resistance.",
+    "s8Text3": "Localized resistance generates heat. Repeated heating can deteriorate insulation, which can eventually lead to arcing, short circuits or fire.",
+    "connectionItemsLabel": "Rehabilitation should therefore include inspection and replacement of:",
+    "connectionItems": [
+      "Switches.",
+      "Socket outlets.",
+      "Junction boxes.",
+      "Terminal blocks.",
+      "Distribution-board connections.",
+      "Cable glands.",
+      "Cable lugs.",
+      "Damaged conduits.",
+      "Exposed joints."
+    ],
+    "s8Closing": "Where possible, joints should be contained within appropriate accessible enclosures and installed according to the applicable wiring standard.",
+
+    "s9Title": "Earthing Is Not Optional",
+    "s9Text1": "Replacing cables without correcting the earthing system is incomplete rehabilitation.",
+    "s9Text2": "The protective earthing system provides a controlled path for fault current and supports the operation of protective devices. The rehabilitation assessment should therefore verify:",
+    "earthingChecklist": [
+      "Protective conductor continuity.",
+      "Earth electrode/system condition.",
+      "Earth connections.",
+      "Bonding where required.",
+      "Continuity of protective conductors.",
+      "Effectiveness of protection against electric shock."
+    ],
+    "s9Text3": "Testing should be performed after installation rather than assuming that a visually correct installation is electrically safe.",
+    "s9Text4": "IEC 60364-6 establishes requirements for verification and testing of low-voltage electrical installations.",
+
+    "s10Title": "The Rehabilitation Should End With Testing — Not Painting",
+    "s10Text1": "A technically complete rehabilitation does not finish when the last cable is installed. It finishes after the installation has been inspected and tested.",
+    "s10Text2": "Depending on the installation, testing should include appropriate verification such as:",
+    "testingChecklist": [
+      "Continuity of protective conductors.",
+      "Insulation resistance.",
+      "Polarity.",
+      "Earth-fault loop / protective measures as applicable.",
+      "RCD/RCBO operation.",
+      "Functional testing.",
+      "Verification of protective-device ratings.",
+      "Visual inspection of cable routes and terminations."
+    ],
+    "s10Text4": "The results should be documented as part of the project handover. This creates an important distinction between:",
+    "s10Before": "“Electrical work completed”",
+    "s10After": "“Electrical installation verified and safe for operation”",
+
+    "s11Title": "A Practical Rehabilitation Specification for a Typical Classroom",
+    "s11Intro": "A typical classroom should not simply receive “new wiring.” The scope should be developed based on the actual building and loads, but may include:",
+    "classroomBoardLabel": "Distribution Board",
+    "classroomCircuits": [
+      { "title": "Lighting", "note": "New or upgraded circuit, correctly sized conductors, efficient LED luminaires." },
+      { "title": "General Power", "note": "Dedicated socket circuits with residual-current protection where required." },
+      { "title": "High-Load Equipment", "note": "Dedicated circuits for air conditioners and other significant loads." }
+    ],
+    "lightingTitle": "Lighting",
+    "lightingScope": [
+      "New lighting circuit where existing wiring is inadequate.",
+      "Correctly sized copper conductors.",
+      "Proper conduits and accessories.",
+      "Efficient LED luminaires.",
+      "Proper switching arrangement."
+    ],
+    "powerTitle": "General Power",
+    "powerScope": [
+      "Dedicated socket circuits.",
+      "Correct conductor sizing.",
+      "Appropriate protective devices.",
+      "Residual-current protection where required.",
+      "Proper earthing."
+    ],
+    "highLoadTitle": "High-Load Equipment",
+    "highLoadScope": [
+      "Dedicated circuits for air conditioners or other significant loads.",
+      "Correct breaker and conductor selection.",
+      "Voltage-drop verification."
+    ],
+    "protectionTitle": "Protection",
+    "protectionScope": [
+      "Proper distribution board.",
+      "Clearly identified circuits.",
+      "MCB/RCBO protection as required.",
+      "Surge protection where justified by the electrical design and supply conditions.",
+      "Proper earthing and bonding."
+    ],
+    "fireSafetyTitle": "Fire Safety",
+    "fireSafetyScope": [
+      "Appropriate flame-performance cable specification.",
+      "Proper containment.",
+      "No uncontrolled joints.",
+      "Separation of circuits where required.",
+      "Protection against mechanical damage."
+    ],
+
+    "s12Title": "The Cost Question: What Does Better Electrical Rehabilitation Actually Cost?",
+    "s12Text1": "This is where rehabilitation decisions must become quantitative. Using the exchange-rate assumption provided for this article:",
+    "exchangeRate": "1 USD = 5,700 SDG",
+    "exchangeFormula": "Cost in SDG = Cost in USD × 5,700",
+    "s12Text2": "However, the exchange rate alone does not determine the local cost of an electrical installation.",
+    "s12Text3": "The final cost also depends on:",
+    "costFactors": [
+      "Cable brand.",
+      "Cable type.",
+      "Conductor cross-section.",
+      "Local availability.",
+      "Import costs.",
+      "Transportation.",
+      "Contractor margin.",
+      "Installation method.",
+      "Conduits.",
+      "Distribution boards.",
+      "MCBs/RCBOs.",
+      "Earthing materials.",
+      "Switches and sockets.",
+      "Labour.",
+      "Testing and commissioning."
+    ],
+    "s12Text4": "For this reason, a professional BoQ should not publish a generic “price per metre” without a current supplier quotation. For example, if the approved 2.5 mm² copper cable is quoted locally at X SDG per conductor metre, and a classroom requires Y metres of conductor, then:",
+    "s12Formula1": "Cable cost = X × Y SDG",
+    "s12Formula2": "Total conductor length ≈ 3 × route length (phase + neutral + protective conductor)",
+    "s12Text5": "This is why the phrase “the classroom needs 100 metres of cable” is technically incomplete — one must specify whether this means 100 metres of cable route or 100 metres of individual conductors, before allowing for vertical drops, distribution-board connections and reasonable installation wastage.",
+
+    "s13Title": "The Better Way to Compare Rehabilitation Costs",
+    "s13Intro": "Suppose two options are available:",
+    "optionA": {
+      "title": "Minimal Repair",
+      "badge": "Option A",
+      "points": [
+        "Reuse most existing wiring and replace only visibly damaged sections.",
+        "Old cable sections remain in service.",
+        "Inconsistent circuit protection.",
+        "Hidden joints and unknown conductor capacity.",
+        "Poor earthing.",
+        "Future maintenance problems."
+      ]
+    },
+    "optionB": {
+      "title": "Proper Electrical Rehabilitation",
+      "badge": "Option B",
+      "points": [
+        "Replace deficient circuits and upgrade protection.",
+        "Correct earthing throughout.",
+        "Improve containment and connections.",
+        "Verify the installation through testing.",
+        "Higher initial cost, but a significantly safer, more maintainable installation."
+      ]
+    },
+    "s13Closing": "Option A will almost always appear cheaper at the quotation stage. But the purpose of rehabilitation is not to minimize today’s invoice — it is to improve the condition and performance of the asset for the years ahead.",
+
+    "s14Title": "Rehabilitation Is an Opportunity, Not Just a Repair",
+    "s14Text1": "When a school is already being rehabilitated, walls may already be opened, conduits may already be accessible, ceilings may already be removed, and contractors are already mobilized. That creates an opportunity.",
+    "s14Text2": "Replacing a deficient electrical installation during rehabilitation is usually far more practical than attempting to correct the same installation after the building has been fully finished.",
+    "s14PrincipleTitle": "The central principle",
+    "s14PrincipleText": "If we are going to rehabilitate a school, we should not simply restore the old system. We should use the rehabilitation process to correct known deficiencies and deliver a safer, more reliable and more sustainable electrical installation.",
+    "s14Text3": "For primary schools, this is not simply an engineering upgrade. It is a safety intervention.",
+    "s14Text4": "Children should not inherit the electrical problems created by decades of deferred maintenance. They should inherit a school that has been rehabilitated properly.",
+
+    "s15Title": "The MS Square Engineering Approach",
+    "s15Text1": "At MS Square Engineering, we believe rehabilitation should begin with assessment rather than assumptions. Our approach is based on:",
+    "processSteps": ["Inspect", "Assess", "Design", "Quantify", "Execute", "Test", "Handover"],
+    "s15Text2": "For electrical rehabilitation, this means assessing the existing installation, identifying unsafe or deficient components, designing the required upgrades, preparing a detailed Bill of Quantities, executing the work according to the approved specification, and testing the completed installation before handover — because rehabilitation is not simply about making a building look new. It is about making the building perform better than it did before.",
+
+    "closingTagline": "MS Square Engineering — Engineering. Rehabilitation. Construction. Khartoum | Port Sudan"
   }
 }
